@@ -1,0 +1,171 @@
+html {
+    height: 100%;
+}
+
+body {
+  background-color: #EEF2FF;
+  background: -webkit-linear-gradient(#D1D5EE, #EEF2FF); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#D1D5EE, #EEF2FF); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#D1D5EE, #EEF2FF); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#D1D5EE, #EEF2FF); /* Standard syntax */
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+* {
+  font-family: arial,helvetica,sans-serif;
+  font-size: 12pt;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#boardname {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+#threadlabel {
+  vertical-align: top;
+}
+
+#threadcreate {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.a{
+  padding-top: 10px;
+  max-width:200px;
+  max-height:200px;
+  width: auto;
+  height: auto;
+  margin-left: 0px;
+  vertical-align: top;
+
+}
+.b{
+  padding-top: 10px;
+  max-width:800px;
+  max-height:600px;
+  width: auto;
+  height: auto;
+  margin-left: 0px;
+  vertical-align: top;
+}
+
+
+#posttitle {
+  font-weight: bold;
+  color: blue;
+  padding-left: 10px;
+}
+
+#name {
+  font-weight: bold;
+  color: #789922;
+}
+
+#op {
+    color: red;
+}
+
+#file {
+    color: transparent;
+}
+
+#posttitle {
+  padding-left: 0px;
+  font-size: 14pt;
+}
+
+.text_hide {
+    max-height: 200px;
+    overflow:hidden;
+    margin-top:-40px;
+}
+
+.text_hide:before{
+    content:"";
+    display:block;
+    height:40px;
+    position:relative;
+    top: 160px;
+    background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0), #D1D5EE 90%)
+}
+.text_show {
+
+}
+#body {
+  padding-left: 20px;
+}
+
+#greentext {
+  color: #789922;
+}
+
+#postcontainer {
+    border-radius: 8px;
+    padding: 10px;
+  background-color: #D1D5EE;
+  border-left: 1px solid #F1F3FD;
+  border-top: 1px solid #F1F3FD;
+  border-right: 1px solid #A0AAE9;
+  border-bottom:  1px solid #A0AAE9;
+}
+
+#pages {
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #D1D5EE;
+    border-left: 1px solid #F1F3FD;
+    border-top: 1px solid #F1F3FD;
+    border-right: 1px solid #A0AAE9;
+    border-bottom:  1px solid #A0AAE9;
+}
+
+#metadata {
+  margin-left: 5px;
+}
+
+#date {
+  margin-right: 5px;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #B7C5D9;
+  margin: 1em 0;
+  padding: 0;
+}
+
+p {
+    margin: 0px;
+    
+    align-items: flex-start;
+    justify-content: flex-start;
+    width:100%;
+   overflow-wrap: normal;  /* не поддерживает IE, Firefox; является копией word-wrap */ 
+  word-wrap: break-word;
+  word-break: keep-all;  /* не поддерживает Opera12.14, значение keep-all не поддерживается IE, Chrome */ 
+  line-break: auto;  /* нет поддержки для русского языка */ 
+ -webkit-hyphens: auto; ​-ms-hyphens: auto; hyphens: auto;  /* значение auto не поддерживается Chrome */ 
+    
+}
+
+blockquote {
+
+    color: #789922;
+    margin: 0px;
+}
+
+code {
+    color: red;
+}
